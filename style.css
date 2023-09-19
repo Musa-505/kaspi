@@ -1,0 +1,132 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #c50d13;
+}
+
+header {
+    background-color: #f1ecec;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f1ecec;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* style.css */
+/* ... (previous styles) */
+
+.main-content {
+    height: 150px;
+    overflow-x: scroll; /* Add horizontal scroll if needed */
+}
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between items as needed */
+}
+
+img {
+    width: 200px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+p {
+    margin: 0; 
+}
+
+/* ... (remaining styles) */
+
+/* style.css */
+/* ... (previous styles) */
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 4px; /* Adjust the gap as needed */
+}
+
+.button-grid button {
+    background: white;
+    padding: 10px 20px;
+    color: #c50d13;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 80px;
+}
+
+.button-grid button i {
+    color: #c50d13; /* Set the color for the icons */
+    font-size: 25px;
+    width: 100%;
+}
+/* ... (remaining styles) */
